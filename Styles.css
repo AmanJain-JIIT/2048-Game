@@ -1,0 +1,52 @@
+#body1
+{
+    background-color: wheat;
+}
+#Htitle
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 500%;
+    color: black;
+    opacity: 50%;
+}
+.Grid
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(133, 129, 126, 0.459);
+    margin: auto;
+    border-radius: 20px;
+}
+.squares
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 95px;
+    background-color: rgb(223, 221, 217);
+    margin: auto;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.button
+{
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 1%;
+    background-color:#ddd;
+    transition: 0.4s;
+}
+.button:hover
+{
+    background-color: #3e8e41;
+    font-size: 45px ;
+    color: white;
+}

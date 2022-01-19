@@ -1,0 +1,107 @@
+#body1
+{
+    background-color: wheat;
+}
+#Htitle
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 500%;
+    color: black;
+    opacity: 50%;
+}
+.Grid
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(133, 129, 126, 0.459);
+    margin: auto;
+    border-radius: 20px;
+}
+.squares
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 95px;
+    background-color: rgb(223, 221, 217);
+    margin: auto;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.button
+{
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 0.4%;
+    background-color:#ddd;
+    transition: 0.4s;
+}
+.button:hover
+{
+    background-color: #3e8e41;
+    font-size: 35px ;
+    color: white;
+}
+#MUTE
+{
+    text-align: center;
+}
+#mute
+{
+    font-size: 10px;
+    background-color: #ddd;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+#mute:hover
+{
+    background-color: #3e8e41;
+    color: white;
+}
+#Score
+{ 
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    height: 60px;
+    background-color: rgba(133, 129, 126, 0.459);
+    margin: auto;
+    border-radius: 20px;
+}
+#playbuttons
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 30px 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    width: 300px;
+    height: 60px;
+    background-color: wheat;
+    margin: auto;
+    border-radius: 20px;
+}
+.pbtn
+{
+    font-size: 20px;
+    background-color: #ddd;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.pbtn:hover
+{
+    background-color: #3e8e41;
+    color: white;
+
+}
