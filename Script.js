@@ -67,16 +67,25 @@ function Restart()
     }
     RandSpawner();
 }
-window.addEventListener("keydown", checkkeypress, false);
-
-function checkkeypress(key)
-{
-    if(key.keycode == "65")
+window.addEventListener('keyup',e=>{
+    console.log(e);
+    if(e.keyCode == 37)
+    {
+        keyleft();
+    }
+    if(e.keyCode == 38)
+    {
+        keyup();
+    }
+    if(e.keyCode == 39)
     {
         keyright();
-        alert("key pressed");
     }
-}
+    if(e.keyCode == 40)
+    {
+        keydown();
+    }
+});
 function keyright()
 {
     score += 10;
